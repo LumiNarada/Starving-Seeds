@@ -1,0 +1,118 @@
+body {
+  font-family: Raleway, var(--bs-font-sans-serif);
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/Desktop.jpg) no-repeat;
+  background-size: cover;
+}
+
+#promo .jumbotron {
+  border-radius: 30px;
+  padding: 40px;
+  background-color: rgb(73,100,109);
+  max-width: 800px;
+  width: auto;
+}
+
+@media (max-width: 360px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .col-md-4.item {
+    padding: 10px;
+  }
+}
+
+.col-md-4.item {
+}
+
+.site-section {
+  text-align: center;
+  padding: 60px 0;
+}
+
+#galery {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.dark-section {
+  background-color: #A5D140;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 7px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #3399f3;
+  background-color: rgb(181,205,232);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #3399f3;
+}
+
+.btn-primary {
+  background-color: rgb(62,140,228);
+}
+
+.btn {
+  background-image: none;
+}
+
+a {
+}
+
+a {
+}
+
+a {
+}
+
+h1 {
+  /*color: #7A4B48;*/
+}
+
+.esquema {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.col d-md-flex {
+}
+
+.primero {
+  background-color: #7C4947;
+  border: 3px solid #090C12;
+}
+
+.segundo {
+  background-color: #c5c658;
+  border: 3px solid #090C12;
+}
+
+.tercero {
+  background-color: #535F44;
+  border: 3px solid #090C12;
+}
+
+.nulo {
+  background-color: #090c12;
+  border: 3px solid #090C12;
+}
+
