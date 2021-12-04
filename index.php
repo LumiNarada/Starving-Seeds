@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/untitled-1.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
@@ -53,159 +54,37 @@
         </div>
     </section>
     <section class="dark-section" style="background: #090c12;">
-        <div class="container site-section" id="picture-1" style="padding-top: 30px;">
-            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Autumn</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Carrot.png"><img src="assets/img/Corn.png"></div>
-            <div class="row">
-                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150%;width: 150px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="nulo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                    </div>
-                    <div style="width: 50%;">
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
-                                <p style="color: #E1DDBB;">First Seed</p>
-                            </div>
-                            <div class="col">
-                                <p style="color: #E1DDBB;">Second Seed</p>
-                            </div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                    </div>
-                    <div style="width: 50%;">
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
-                                <p style="color: #E1DDBB;">First Seed</p>
-                            </div>
-                            <div class="col">
-                                <p style="color: #E1DDBB;">Second Seed</p>
-                            </div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                    </div>
-                    <div style="width: 50%;">
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
-                                <p style="color: #E1DDBB;">First Seed</p>
-                            </div>
-                            <div class="col">
-                                <p style="color: #E1DDBB;">Second Seed</p>
-                            </div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-4" style="padding-top: 30px;">
-            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Winter</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png"><img src="assets/img/Carrot.png"></div>
-            <div class="row">
+            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Autumn</strong></h1>
+            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150%;width: 150px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="nulo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
                             </div>
                         </div>
@@ -224,89 +103,101 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col">
+                                <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
@@ -316,27 +207,36 @@
     </section>
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-3" style="padding-top: 30px;">
-            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Spring</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png"><img src="assets/img/Carrot.png"></div>
-            <div class="row">
+            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Winter</strong></h1>
+            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150%;width: 150px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="nulo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
                             </div>
                         </div>
@@ -355,89 +255,101 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col">
+                                <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
@@ -447,27 +359,36 @@
     </section>
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-2" style="padding-top: 30px;">
-            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Summer</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Corn.png"></div>
-            <div class="row">
+            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Spring</strong></h1>
+            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150%;width: 150px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="nulo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
                             </div>
                         </div>
@@ -486,32 +407,140 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Third Seed</p>
+                            </div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                    </div>
+                    <div style="width: 90%;">
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">First Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
                             <div class="col">
+                                <p style="color: #E1DDBB;">Third Seed</p>
+                            </div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dark-section" style="background: #090c12;">
+        <div class="container site-section" id="picture-1" style="padding-top: 30px;">
+            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Summer</strong></h1>
+            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
+                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                    </div>
+                    <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">First Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
                             </div>
                         </div>
@@ -530,45 +559,101 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema" style="height: 150px;width: 300px;margin-bottom: 17px;">
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="tercero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="segundo" style="width: 50px;height: 50px;"></div>
-                        <div class="primero" style="width: 50px;height: 50px;"></div>
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div style="width: 50%;">
+                    <div style="width: 90%;">
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">First Seed</p>
                             </div>
-                            <div class="col">
+                            <div class="col" style="width: 33%;">
                                 <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
                             <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                    </div>
+                    <div style="width: 90%;">
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">First Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col">
+                                <p style="color: #E1DDBB;">Third Seed</p>
+                            </div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                             <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
