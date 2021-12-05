@@ -5,22 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Seeds</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=MuseoModerno&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/untitled-1.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="resources/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/untitled-1.css">
+    <link rel="stylesheet" href="resources/css/untitled.css">
 </head>
 
 <body style="background: #292c2f;color: #E1DDBB;">
     <nav class="navbar navbar-light navbar-expand sticky-top" style="color: #E1DDBB;background: #2C2A33;">
-        <div class="container"><img id="logo" src="assets/img/Icon.png"><a class="navbar-brand" href="#" style="color: #E1DDBB;border-color: #292c2f;"><strong>Starving&nbsp;</strong>Seeds</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><img id="logo" src="resources/img/Icon.png"><a class="navbar-brand" href="#" style="color: #E1DDBB;border-color: #292c2f;"><strong>Starving&nbsp;</strong>Seeds</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1" style="color: #E1DDBB;">
                 <ul class="navbar-nav ms-auto" style="color: #E1DDBB;">
                     <li class="nav-item" style="color: rgb(122,75,72);background: 7A4B48;"><a class="nav-link active" href="#" style="color: rgb(225,221,187);"><strong>Intro</strong></a></li>
@@ -42,13 +42,13 @@
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Introduction</strong></h1>
             <div class="row">
                 <div class="col-md-4 item">
-                    <h2 style="color: #E1DDBB;">Growth formula<br></h2><a href="assets/img/Growth_Formula.png" target="_blank" data-lightbox="nutrients" data-title="Growth Formula"><img src="assets/img/Growth_Formula.png"></a>
+                    <h2 style="color: #E1DDBB;">Growth formula<br></h2><a href="resources/img/Growth_Formula.png" target="_blank" data-lightbox="nutrients" data-title="Growth Formula"><img src="resources/img/Growth_Formula.png"></a>
                 </div>
                 <div class="col-md-4 item">
-                    <h2 style="color: #E1DDBB;">Compost<br></h2><a href="assets/img/Compost.png" target="_blank" data-lightbox="nutrients" data-title="Compost"><img src="assets/img/Compost.png"></a>
+                    <h2 style="color: #E1DDBB;">Compost<br></h2><a href="resources/img/Compost.png" target="_blank" data-lightbox="nutrients" data-title="Compost"><img src="resources/img/Compost.png"></a>
                 </div>
                 <div class="col-md-4 item">
-                    <h2 style="color: #E1DDBB;">Manure</h2><a href="assets/img/Manure.png" target="_blank" data-lightbox="nutrients" data-title="Manure"><img src="assets/img/Manure.png" data-lightbox="paint"></a>
+                    <h2 style="color: #E1DDBB;">Manure</h2><a href="resources/img/Manure.png" target="_blank" data-lightbox="nutrients" data-title="Manure"><img src="resources/img/Manure.png" data-lightbox="paint"></a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-4" style="padding-top: 30px;">
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Autumn</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div style="margin-bottom: 17px;"><img src="resources/img/Asparagus.png" style="width: 40px;"><img src="resources/img/Carrot.png" style="width: 40px;"></div>
             <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
                     <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
@@ -89,16 +89,16 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -136,19 +136,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -186,19 +186,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-3" style="padding-top: 30px;">
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Winter</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div style="margin-bottom: 17px;"><img src="resources/img/Asparagus.png" style="width: 40px;"><img src="resources/img/Carrot.png" style="width: 40px;"></div>
             <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
                     <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
@@ -241,16 +241,16 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -288,19 +288,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -338,19 +338,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -360,7 +360,7 @@
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-2" style="padding-top: 30px;">
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Spring</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div style="margin-bottom: 17px;"><img src="resources/img/Asparagus.png" style="width: 40px;"><img src="resources/img/Carrot.png" style="width: 40px;"></div>
             <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
                     <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
@@ -393,16 +393,16 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -440,19 +440,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -490,19 +490,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -512,7 +512,7 @@
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-1" style="padding-top: 30px;">
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Summer</strong></h1>
-            <div style="margin-bottom: 17px;"><img src="assets/img/Asparagus.png" style="width: 40px;"><img src="assets/img/Carrot.png" style="width: 40px;"></div>
+            <div style="margin-bottom: 17px;"><img src="resources/img/Asparagus.png" style="width: 40px;"><img src="resources/img/Carrot.png" style="width: 40px;"></div>
             <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
                     <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
@@ -545,16 +545,16 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -592,19 +592,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -642,19 +642,19 @@
                             </div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 50%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                         <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="assets/img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="assets/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="resources/img/Carrot.png" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
@@ -688,7 +688,7 @@
             </div>
         </div>
     </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
