@@ -5,22 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Seeds</title>
-    <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=MuseoModerno&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700&amp;display=swap">
-    <link rel="stylesheet" href="../resources/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-    <link rel="stylesheet" href="../resources/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="../resources/css/styles.css">
-    <link rel="stylesheet" href="../resources/css/untitled-1.css">
-    <link rel="stylesheet" href="../resources/css/untitled.css">
+    <link rel="stylesheet" href="../css/Pretty-Footer.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/untitled-1.css">
+    <link rel="stylesheet" href="../css/untitled.css">
 </head>
 
 <body style="background: #292c2f;color: #E1DDBB;">
 <nav class="navbar navbar-light navbar-expand sticky-top" style="color: #E1DDBB;background: #2C2A33;">
-    <div class="container"><img id="logo" src="../resources/img/Icon.png"><a class="navbar-brand" href="#" style="color: #E1DDBB;border-color: #292c2f;"><strong>Starving&nbsp;</strong>Seeds</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <div class="container"><img id="logo" src="../img/Icon.png"><a class="navbar-brand" href="#" style="color: #E1DDBB;border-color: #292c2f;"><strong>Starving&nbsp;</strong>Seeds</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1" style="color: #E1DDBB;">
             <ul class="navbar-nav ms-auto" style="color: #E1DDBB;">
                 <li class="nav-item" style="color: rgb(122,75,72);background: 7A4B48;"><a class="nav-link active" href="#" style="color: rgb(225,221,187);"><strong>Intro</strong></a></li>
@@ -42,7 +42,7 @@
         <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Introduction</strong></h1>
         <div class="row">
             <div class="col-md-4 item">
-                <h2 style="color: #E1DDBB;">Growth formula<br></h2><a href="../img/Growth_Formula.png" target="_blank" data-lightbox="nutrients" data-title="Growth Formula"><img src="../resources/img/Growth_Formula.png"></a>
+                <h2 style="color: #E1DDBB;">Growth formula<br></h2><a href="../img/Growth_Formula.png" target="_blank" data-lightbox="nutrients" data-title="Growth Formula"><img src="../img/Growth_Formula.png"></a>
             </div>
             <div class="col-md-4 item">
                 <h2 style="color: #E1DDBB;">Compost<br></h2><a href="../img/Compost.png" target="_blank" data-lightbox="nutrients" data-title="Compost"><img src="../img/Compost.png"></a>
@@ -688,7 +688,7 @@
         </div>
     </div>
 </footer>
-<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../../public/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
