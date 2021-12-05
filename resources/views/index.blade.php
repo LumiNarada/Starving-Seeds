@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <link rel="stylesheet" href="../css/Pretty-Footer.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/untitled-1.css">
-    <link rel="stylesheet" href="../css/untitled.css">
 </head>
 
 <body style="background: #292c2f;color: #E1DDBB;">
