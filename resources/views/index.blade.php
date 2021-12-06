@@ -170,6 +170,10 @@
     </div>
 </section>
 @foreach($seasons as $season)
+    @php
+        $season_plants=array();
+        $season_combinations=array();
+    @endphp
     <section class="dark-section" style="background: #090c12;">
         <div class="container site-section" id="picture-4" style="padding-top: 30px;">
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>{{$season}}</strong></h1>
@@ -178,11 +182,12 @@
                     @foreach($description["season"] as $season_plant)
                         @if($season_plant==$season)
                             <img src="../img/{{$seed}}.png" style="width: 40px;">
+                            @php
+                                $season_plants[$seed]=$description["nutrients"];
+                            @endphp
                         @endif
                     @endforeach
                 @endforeach
-                <br>
-                
             </div>
             <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
@@ -215,18 +220,47 @@
                                 <p style="color: #E1DDBB;">Second Seed</p>
                             </div>
                         </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
+                        @foreach($season_plants as $seed_primera => $description_primera)
+                            @foreach($season_plants as $seed_segunda => $description_segunda)
+                                @if($description_primera["formula"] + $description_segunda["formula"] == 0 && $description_primera["compost"] + $description_segunda["compost"] == 0 && $description_primera["manure"] + $description_segunda["manure"] == 0)
+                                    @if($season_combinations == NULL)
+                                        @php
+                                            $combination=[
+                                                "seed_primera"=>$seed_primera,
+                                                "seed_segunda"=>$seed_segunda
+                                            ];
+                                            array_push($season_combinations, $combination)
+                                        @endphp
+                                    @else
+                                        @php
+                                            $repeticion=0;
+                                        @endphp
+                                        @foreach($season_combinations as $season_combination => $plants_combination)
+                                            @if($seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_segunda"] || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_primera"] )
+                                                @php
+                                                    $repeticion=1;
+                                                @endphp
+                                            @endif
+                                        @endforeach
+                                        @if($repeticion==0)
+                                            @php
+                                                $combination=[
+                                                    "seed_primera"=>$seed_primera,
+                                                    "seed_segunda"=>$seed_segunda
+                                                ];
+                                                array_push($season_combinations, $combination)
+                                            @endphp
+                                        @endif
+                                    @endif
+                                @endif
+                            @endforeach
+                        @endforeach
+                        @foreach($season_combinations as $impresion => $official_seeds)
+                            <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                                <div class="col"><img src="../img/{{$official_seeds["seed_primera"]}}.png" style="width: 70%;"></div>
+                                <div class="col"><img src="../img/{{$official_seeds["seed_segunda"]}}.png" style="width: 70%;"></div>
+                            </div>
+                        @endforeach
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
@@ -262,21 +296,51 @@
                                 <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
+                        @php
+                            $season_combinations=array();
+                        @endphp
+                        @foreach($season_plants as $seed_primera => $description_primera)
+                            @foreach($season_plants as $seed_segunda => $description_segunda)
+                                @if(2*$description_primera["formula"] + $description_segunda["formula"] == 0 && 2*$description_primera["compost"] + $description_segunda["compost"] == 0 && 2*$description_primera["manure"] + $description_segunda["manure"] == 0)
+                                    @if($season_combinations == NULL)
+                                        @php
+                                            $combination=[
+                                                "seed_primera"=>$seed_primera,
+                                                "seed_segunda"=>$seed_segunda
+                                            ];
+                                            array_push($season_combinations, $combination)
+                                        @endphp
+                                    @else
+                                        @php
+                                            $repeticion=0;
+                                        @endphp
+                                        @foreach($season_combinations as $season_combination => $plants_combination)
+                                            @if($seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_segunda"] || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_primera"] )
+                                                @php
+                                                    $repeticion=1;
+                                                @endphp
+                                            @endif
+                                        @endforeach
+                                        @if($repeticion==0)
+                                            @php
+                                                $combination=[
+                                                    "seed_primera"=>$seed_primera,
+                                                    "seed_segunda"=>$seed_segunda
+                                                ];
+                                                array_push($season_combinations, $combination)
+                                            @endphp
+                                        @endif
+                                    @endif
+                                @endif
+                            @endforeach
+                        @endforeach
+                        @foreach($season_combinations as $impresion => $official_seeds)
+                            <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                                <div class="col"><img src="../img/{{$official_seeds["seed_primera"]}}.png" style="width: 70%;"></div>
+                                <div class="col"><img src="../img/{{$official_seeds["seed_primera"]}}.png" style="width: 70%;"></div>
+                                <div class="col"><img src="../img/{{$official_seeds["seed_segunda"]}}.png" style="width: 70%;"></div>
+                            </div>
+                        @endforeach
                     </div>
                 </div>
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
@@ -312,21 +376,92 @@
                                 <p style="color: #E1DDBB;">Third Seed</p>
                             </div>
                         </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 50%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
-                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        </div>
+                        @php
+                            $season_combinations=array();
+                        @endphp
+                        @foreach($season_plants as $seed_primera => $description_primera)
+                            @foreach($season_plants as $seed_segunda => $description_segunda)
+                                @foreach($season_plants as $seed_tercera => $description_tercera)
+                                    @if($description_primera["formula"] + $description_segunda["formula"] + $description_tercera["formula"] == 0 && $description_primera["compost"] + $description_segunda["compost"] + $description_tercera["compost"]== 0 && $description_primera["manure"] + $description_segunda["manure"] + $description_tercera["manure"]== 0)
+                                        @if($season_combinations == NULL)
+                                            @php
+                                                $combination=[
+                                                    "seed_primera"=>$seed_primera,
+                                                    "seed_segunda"=>$seed_segunda,
+                                                    "seed_tercera"=>$seed_tercera
+                                                ];
+                                                array_push($season_combinations, $combination)
+                                            @endphp
+                                        @else
+                                            @php
+                                                $repeticion=0;
+                                            @endphp
+                                            @foreach($season_combinations as $season_combination => $plants_combination)
+                                                @if($seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_primera"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_segunda"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_primera"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_segunda"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_primera"]
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_segunda"]
+                                                || $seed_primera == $plants_combination["seed_tercera"] && $seed_segunda == $plants_combination["seed_tercera"] && $seed_tercera == $plants_combination["seed_tercera"]
+
+                                                || $seed_primera == $seed_segunda || $seed_primera == $seed_tercera || $seed_segunda == $seed_tercera
+                                                )
+                                                    @php
+                                                        $repeticion=1;
+                                                    @endphp
+                                                @endif
+                                            @endforeach
+                                            @if($repeticion==0)
+                                                @php
+                                                    $combination=[
+                                                        "seed_primera"=>$seed_primera,
+                                                        "seed_segunda"=>$seed_segunda,
+                                                        "seed_tercera"=>$seed_tercera
+                                                    ];
+                                                    array_push($season_combinations, $combination)
+                                                @endphp
+                                            @endif
+                                        @endif
+                                    @endif
+                                @endforeach
+                            @endforeach
+                        @endforeach
+                        @foreach($season_combinations as $impresion => $official_seeds)
+                            <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                                <div class="col"><img src="../img/{{$official_seeds["seed_primera"]}}.png" style="width: 70%;"></div>
+                                <div class="col"><img src="../img/{{$official_seeds["seed_segunda"]}}.png" style="width: 70%;"></div>
+                                <div class="col"><img src="../img/{{$official_seeds["seed_tercera"]}}.png" style="width: 70%;"></div>
+                            </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
