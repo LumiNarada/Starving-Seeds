@@ -33,6 +33,124 @@
 <div class="d-lg-flex justify-content-lg-center" id="promo">
     <div class="jumbotron" style="background: rgba(2,4,3,0.5);">
         <h1 class="display-4" style="color: #DBD7BB;font-family: MuseoModerno, serif;"><strong>Starving Seeds</strong></h1>
+
+            @php
+                $seasons=["Autumn","Winter", "Spring", "Summer"];
+                $seeds=[
+                    "Asparagus"=>[
+                                "season"=>["Winter", "Spring"],
+                                "nutrients"=>[
+                                    "formula"=>1,
+                                    "compost"=>-2,
+                                    "manure"=>1
+                                ]
+                    ],
+                    "Carrot"=>[
+                                "season"=>["Autumn", "Winter", "Spring"],
+                                "nutrients"=>[
+                                    "formula"=>-2,
+                                    "compost"=>1,
+                                    "manure"=>1
+                                ]
+                    ],
+                    "Corn"=>[
+                                "season"=>["Autumn", "Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=> 1,
+                                    "compost"=>-2,
+                                    "manure"=>1
+                                ]
+                    ],
+                    "Dragon"=>[
+                                "season"=>["Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>2,
+                                    "compost"=>2,
+                                    "manure"=>-4
+                                ]
+                    ],
+                    "Durian"=>[
+                                "season"=>["Spring"],
+                                "nutrients"=>[
+                                    "formula"=>2,
+                                    "compost"=>-4,
+                                    "manure"=>2
+                                ]
+                    ],
+                    "Eggplant"=>[
+                                "season"=>["Autumn", "Spring"],
+                                "nutrients"=>[
+                                    "formula"=>1,
+                                    "compost"=>1,
+                                    "manure"=>-2
+                                ]
+                    ],
+                    "Garlic"=>[
+                                "season"=>["Autumn", "Winter", "Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>2,
+                                    "compost"=>-4,
+                                    "manure"=>2
+                                ]
+                    ],
+                    "Onion"=>[
+                                "season"=>["Autumn", "Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>-4,
+                                    "compost"=>2,
+                                    "manure"=>2
+                                ]
+                    ],
+                    "Pepper"=>[
+                                "season"=>["Autumn", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>2,
+                                    "compost"=>2,
+                                    "manure"=>-4
+                                ]
+                    ],
+                    "Pomegranate"=>[
+                                "season"=>["Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>-4,
+                                    "compost"=>2,
+                                    "manure"=>2
+                                ]
+                    ],
+                    "Potato"=>[
+                                "season"=>["Autumn", "Winter", "Spring"],
+                                "nutrients"=>[
+                                    "formula"=>1,
+                                    "compost"=>1,
+                                    "manure"=>-2
+                                ]
+                    ],
+                    "Pumpkin"=>[
+                                "season"=>["Autumn", "Winter"],
+                                "nutrients"=>[
+                                    "formula"=>-2,
+                                    "compost"=>1,
+                                    "manure"=>1
+                                ]
+                    ],
+                    "Toma"=>[
+                                "season"=>["Autumn", "Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>-1,
+                                    "compost"=>-1,
+                                    "manure"=>2
+                                ]
+                    ],
+                    "Watermelon"=>[
+                                "season"=>["Spring", "Summer"],
+                                "nutrients"=>[
+                                    "formula"=>2,
+                                    "compost"=>-1,
+                                    "manure"=>-1
+                                ]
+                    ]
+                ];
+            @endphp
     </div>
 </div>
 <section class="dark-section" style="background: #2C2A33;">
@@ -51,614 +169,170 @@
         </div>
     </div>
 </section>
-<section class="dark-section" style="background: #090c12;">
-    <div class="container site-section" id="picture-4" style="padding-top: 30px;">
-        <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Autumn</strong></h1>
-        <div style="margin-bottom: 17px;"><img src="../img/Asparagus.png" style="width: 40px;"><img src="../img/Carrot.png" style="width: 40px;"></div>
-        <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
+@foreach($seasons as $season)
+    <section class="dark-section" style="background: #090c12;">
+        <div class="container site-section" id="picture-4" style="padding-top: 30px;">
+            <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>{{$season}}</strong></h1>
+            <div style="margin-bottom: 17px;">
+                @foreach($seeds as $seed => $description)
+                    @foreach($description["season"] as $season_plant)
+                        @if($season_plant==$season)
+                            <img src="../img/{{$seed}}.png" style="width: 40px;">
+                        @endif
+                    @endforeach
+                @endforeach
+                <br>
+                
             </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Third Seed</p>
-                        </div>
+            <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
+                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="nulo"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
                     </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                    <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">First Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                        </div>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
+                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                    </div>
+                    <div style="width: 90%;">
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">First Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Third Seed</p>
+                            </div>
                         </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                         </div>
-                        <div class="col">
-                            <p style="color: #E1DDBB;">Third Seed</p>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                         </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 50%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="dark-section" style="background: #090c12;">
-    <div class="container site-section" id="picture-3" style="padding-top: 30px;">
-        <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Winter</strong></h1>
-        <div style="margin-bottom: 17px;"><img src="../img/Asparagus.png" style="width: 40px;"><img src="../img/Carrot.png" style="width: 40px;"></div>
-        <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                         </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
+                <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
+                    <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                        <div class="primero"></div>
+                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="primero"></div>
+                    </div>
+                    <div style="width: 90%;">
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">First Seed</p>
+                            </div>
+                            <div class="col" style="width: 33%;">
+                                <p style="color: #E1DDBB;">Second Seed</p>
+                            </div>
+                            <div class="col">
+                                <p style="color: #E1DDBB;">Third Seed</p>
+                            </div>
                         </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 50%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                         </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Third Seed</p>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                         </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
+                        <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+                            <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
+                            <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                         </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                        <div class="col">
-                            <p style="color: #E1DDBB;">Third Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 50%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="dark-section" style="background: #090c12;">
-    <div class="container site-section" id="picture-2" style="padding-top: 30px;">
-        <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Spring</strong></h1>
-        <div style="margin-bottom: 17px;"><img src="../img/Asparagus.png" style="width: 40px;"><img src="../img/Carrot.png" style="width: 40px;"></div>
-        <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Third Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                        <div class="col">
-                            <p style="color: #E1DDBB;">Third Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 50%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="dark-section" style="background: #090c12;">
-    <div class="container site-section" id="picture-1" style="padding-top: 30px;">
-        <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Summer</strong></h1>
-        <div style="margin-bottom: 17px;"><img src="../img/Asparagus.png" style="width: 40px;"><img src="../img/Carrot.png" style="width: 40px;"></div>
-        <div class="row d-md-flex d-xl-flex align-items-md-start align-items-xl-start">
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="nulo"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;padding-right: 15%;padding-left: 15%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Third Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex d-sm-flex d-md-flex flex-column justify-content-start align-items-center align-items-sm-center align-items-lg-center item" style="margin-bottom: 10px;">
-                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                    <div class="primero"></div>
-                    <div class="segundo"></div>
-                    <div class="tercero"></div>
-                    <div class="tercero"></div>
-                    <div class="segundo"></div>
-                    <div class="primero"></div>
-                </div>
-                <div style="width: 90%;">
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">First Seed</p>
-                        </div>
-                        <div class="col" style="width: 33%;">
-                            <p style="color: #E1DDBB;">Second Seed</p>
-                        </div>
-                        <div class="col">
-                            <p style="color: #E1DDBB;">Third Seed</p>
-                        </div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 50%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
-                        <div class="col"><img src="../img/Asparagus.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                        <div class="col"><img src="../img/Carrot.png" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+@endforeach
 <footer style="background: #2C2A33;">
     <div class="container">
         <div class="row">
