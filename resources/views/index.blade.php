@@ -347,8 +347,8 @@
                     <div class="d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-lg-center align-items-lg-start align-items-xl-start esquema">
                         <div class="primero"></div>
                         <div class="segundo"></div>
-                        <div class="tercero"></div>
-                        <div class="tercero"></div>
+                        <div class="segundo"></div>
+                        <div class="segundo"></div>
                         <div class="segundo"></div>
                         <div class="primero"></div>
                         <div class="primero"></div>
@@ -358,10 +358,10 @@
                         <div class="segundo"></div>
                         <div class="primero"></div>
                         <div class="primero"></div>
-                        <div class="segundo"></div>
                         <div class="tercero"></div>
                         <div class="tercero"></div>
-                        <div class="segundo"></div>
+                        <div class="tercero"></div>
+                        <div class="tercero"></div>
                         <div class="primero"></div>
                     </div>
                     <div style="width: 90%;">
