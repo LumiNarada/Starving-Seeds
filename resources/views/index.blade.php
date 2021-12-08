@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body style="background: #292c2f;color: #E1DDBB;">
-<nav class="navbar navbar-light navbar-expand sticky-top" style="color: #E1DDBB;background: #2C2A33;">
-    <div class="container"><img id="logo" src="../img/Icon.png"><a class="navbar-brand" href="#" style="color: #E1DDBB;border-color: #292c2f;"><strong>Starving&nbsp;</strong>Seeds</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navcol-1" style="color: #E1DDBB;">
-            <ul class="navbar-nav ms-auto" style="color: #E1DDBB;">
-                <li class="nav-item" style="color: rgb(122,75,72);background: 7A4B48;"><a class="nav-link active" href="#" style="color: rgb(225,221,187);"><strong>Intro</strong></a></li>
-                <li class="nav-item" style="color: #E1DDBB;"><a class="nav-link" href="#" style="color: #E1DDBB;">Autum</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" style="color: #E1DDBB;">Winter</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" style="color: #E1DDBB;">Spring</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" style="color: #E1DDBB;">Summer</a></li>
+<body id="bodiantres" style="background: #292c2f;color: #E1DDBB;">
+<nav class="navbar navbar-light navbar-expand-md sticky-top" style="background: rgb(44,42,51); padding-right: 30px; padding-left: 30px">
+    <div class="container-fluid"><img id="logo" src="../img/Icon.png"><a class="navbar-brand" href="#" style="color: rgb(255,255,255);"><strong>Starving </strong>Seeds</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navcol-2">
+            <ul class="navbar-nav">
+                <li class="nav-item" onclick="intro()"><a class="nav-link active" style="color: #E1DDBB;"><strong>Intro</strong></a></li>
+                <li class="nav-item" onclick="autumn()"><a class="nav-link" style="color: #E1DDBB;" >Autumn</a></li>
+                <li class="nav-item" onclick="winter()"><a class="nav-link" style="color: #E1DDBB;">Winter</a></li>
+                <li class="nav-item" onclick="spring()"><a class="nav-link" style="color: #E1DDBB;">Spring</a></li>
+                <li class="nav-item" onclick="summer()"><a class="nav-link" style="color: #E1DDBB;">Summer</a></li>
             </ul>
         </div>
     </div>
@@ -34,127 +34,126 @@
 <div class="d-lg-flex justify-content-lg-center" id="promo">
     <div class="jumbotron" style="background: rgba(2,4,3,0.5);">
         <h1 class="display-4" style="color: #DBD7BB;font-family: MuseoModerno, serif;"><strong>Starving Seeds</strong></h1>
-
-            @php
-                $seasons=["Autumn","Winter", "Spring", "Summer"];
-                $seeds=[
-                    "Asparagus"=>[
-                                "season"=>["Winter", "Spring"],
-                                "nutrients"=>[
-                                    "formula"=>1,
-                                    "compost"=>-2,
-                                    "manure"=>1
-                                ]
-                    ],
-                    "Carrot"=>[
-                                "season"=>["Autumn", "Winter", "Spring"],
-                                "nutrients"=>[
-                                    "formula"=>-2,
-                                    "compost"=>1,
-                                    "manure"=>1
-                                ]
-                    ],
-                    "Corn"=>[
-                                "season"=>["Autumn", "Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=> 1,
-                                    "compost"=>-2,
-                                    "manure"=>1
-                                ]
-                    ],
-                    "Dragon"=>[
-                                "season"=>["Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>2,
-                                    "compost"=>2,
-                                    "manure"=>-4
-                                ]
-                    ],
-                    "Durian"=>[
-                                "season"=>["Spring"],
-                                "nutrients"=>[
-                                    "formula"=>2,
-                                    "compost"=>-4,
-                                    "manure"=>2
-                                ]
-                    ],
-                    "Eggplant"=>[
-                                "season"=>["Autumn", "Spring"],
-                                "nutrients"=>[
-                                    "formula"=>1,
-                                    "compost"=>1,
-                                    "manure"=>-2
-                                ]
-                    ],
-                    "Garlic"=>[
-                                "season"=>["Autumn", "Winter", "Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>2,
-                                    "compost"=>-4,
-                                    "manure"=>2
-                                ]
-                    ],
-                    "Onion"=>[
-                                "season"=>["Autumn", "Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>-4,
-                                    "compost"=>2,
-                                    "manure"=>2
-                                ]
-                    ],
-                    "Pepper"=>[
-                                "season"=>["Autumn", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>2,
-                                    "compost"=>2,
-                                    "manure"=>-4
-                                ]
-                    ],
-                    "Pomegranate"=>[
-                                "season"=>["Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>-4,
-                                    "compost"=>2,
-                                    "manure"=>2
-                                ]
-                    ],
-                    "Potato"=>[
-                                "season"=>["Autumn", "Winter", "Spring"],
-                                "nutrients"=>[
-                                    "formula"=>1,
-                                    "compost"=>1,
-                                    "manure"=>-2
-                                ]
-                    ],
-                    "Pumpkin"=>[
-                                "season"=>["Autumn", "Winter"],
-                                "nutrients"=>[
-                                    "formula"=>-2,
-                                    "compost"=>1,
-                                    "manure"=>1
-                                ]
-                    ],
-                    "Toma"=>[
-                                "season"=>["Autumn", "Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>-1,
-                                    "compost"=>-1,
-                                    "manure"=>2
-                                ]
-                    ],
-                    "Watermelon"=>[
-                                "season"=>["Spring", "Summer"],
-                                "nutrients"=>[
-                                    "formula"=>2,
-                                    "compost"=>-1,
-                                    "manure"=>-1
-                                ]
-                    ]
-                ];
-            @endphp
     </div>
 </div>
-<section class="dark-section" style="background: #2C2A33;">
+@php
+    $seasons=["Autumn","Winter", "Spring", "Summer"];
+    $seeds=[
+        "Asparagus"=>[
+                    "season"=>["Winter", "Spring"],
+                    "nutrients"=>[
+                        "formula"=>1,
+                        "compost"=>-2,
+                        "manure"=>1
+                    ]
+        ],
+        "Carrot"=>[
+                    "season"=>["Autumn", "Winter", "Spring"],
+                    "nutrients"=>[
+                        "formula"=>-2,
+                        "compost"=>1,
+                        "manure"=>1
+                    ]
+        ],
+        "Corn"=>[
+                    "season"=>["Autumn", "Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=> 1,
+                        "compost"=>-2,
+                        "manure"=>1
+                    ]
+        ],
+        "Dragon"=>[
+                    "season"=>["Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>2,
+                        "compost"=>2,
+                        "manure"=>-4
+                    ]
+        ],
+        "Durian"=>[
+                    "season"=>["Spring"],
+                    "nutrients"=>[
+                        "formula"=>2,
+                        "compost"=>-4,
+                        "manure"=>2
+                    ]
+        ],
+        "Eggplant"=>[
+                    "season"=>["Autumn", "Spring"],
+                    "nutrients"=>[
+                        "formula"=>1,
+                        "compost"=>1,
+                        "manure"=>-2
+                    ]
+        ],
+        "Garlic"=>[
+                    "season"=>["Autumn", "Winter", "Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>2,
+                        "compost"=>-4,
+                        "manure"=>2
+                    ]
+        ],
+        "Onion"=>[
+                    "season"=>["Autumn", "Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>-4,
+                        "compost"=>2,
+                        "manure"=>2
+                    ]
+        ],
+        "Pepper"=>[
+                    "season"=>["Autumn", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>2,
+                        "compost"=>2,
+                        "manure"=>-4
+                    ]
+        ],
+        "Pomegranate"=>[
+                    "season"=>["Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>-4,
+                        "compost"=>2,
+                        "manure"=>2
+                    ]
+        ],
+        "Potato"=>[
+                    "season"=>["Autumn", "Winter", "Spring"],
+                    "nutrients"=>[
+                        "formula"=>1,
+                        "compost"=>1,
+                        "manure"=>-2
+                    ]
+        ],
+        "Pumpkin"=>[
+                    "season"=>["Autumn", "Winter"],
+                    "nutrients"=>[
+                        "formula"=>-2,
+                        "compost"=>1,
+                        "manure"=>1
+                    ]
+        ],
+        "Toma"=>[
+                    "season"=>["Autumn", "Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>-1,
+                        "compost"=>-1,
+                        "manure"=>2
+                    ]
+        ],
+        "Watermelon"=>[
+                    "season"=>["Spring", "Summer"],
+                    "nutrients"=>[
+                        "formula"=>2,
+                        "compost"=>-1,
+                        "manure"=>-1
+                    ]
+        ]
+    ];
+@endphp
+<section class="dark-section" id="intro" style="background: #2C2A33;">
     <div class="container site-section" id="picture" style="padding-top: 30px;">
         <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>Introduction</strong></h1>
         <div class="row">
@@ -175,7 +174,7 @@
         $season_plants=array();
         $season_combinations=array();
     @endphp
-    <section class="dark-section" style="background: #090c12;">
+    <section class="dark-section" id={{$season}} style="background: #090c12;">
         <div class="container site-section" id="picture-4" style="padding-top: 30px;">
             <h1 style="color: #E1DDBB;margin-bottom: 17px;"><strong>{{$season}}</strong></h1>
             <div style="margin-bottom: 17px;">
@@ -496,7 +495,8 @@
         </div>
     </div>
 </footer>
-<script src="../../public/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/navbar.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
